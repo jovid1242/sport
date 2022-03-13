@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import logo from "../../assets/img/new_logo.png";
 
 import "../../styles/header.scss";
@@ -10,7 +11,9 @@ export default function Header() {
         <div className="sport_container">
           <div className="h__wrapper">
             <div className="h__logo">
-              <img src={logo} alt="logo sport" />
+              <Link to="/">
+                <img src={logo} alt="logo sport" />
+              </Link>
             </div>
             <div className="search_section">
               <form action="">
