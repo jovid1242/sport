@@ -1,0 +1,52 @@
+.league_tour {
+  margin-top: 25px;
+  width: 100%;
+
+  color: #f3f4f5 !important;
+
+  .tour__wrapper {
+    padding: 0 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    img {
+      width: 100px;
+      height: 100px;
+    }
+
+    span {
+      margin-top: 10px;
+      font-size: 21px;
+    }
+
+    .l_item {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column-reverse;
+    }
+
+    .r_item {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column-reverse;
+    }
+
+    .info_vs {
+      margin: 10px 0;
+      p {
+        font-size: 48px;
+        font-weight: 500;
+        line-clamp: 50px;
+      }
+    }
+  }
+}
+@media (max-width: 768px) {
+  .league_tour .tour__wrapper img {
+    width: 80px;
+    height: 80px;
+  }
+}

@@ -1,0 +1,53 @@
+.championats {
+  margin-top: 40px;
+  .c__wrapper {
+    .title {
+      display: flex;
+      h3 {
+        font-size: 28px;
+        font-weight: 500;
+        color: #fff;
+      }
+      img {
+        width: 40px;
+        height: 40px;
+      }
+    }
+
+    .table__list {
+      margin-top: 20px;
+      ul li a {
+        width: 100%;
+        height: 65px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #f0f0f0;
+        border-radius: 8px;
+        box-sizing: border-box;
+        padding: 6px 0;
+        color: #f3f4f5;
+        transition: 0.5s ease-in-out;
+
+        &:hover {
+          background-color: #2b2b2b;
+        }
+
+        img {
+          width: 40px;
+          height: 40px;
+          margin-right: 10px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .championats {
+    margin-top: 20px;
+  }
+  .championats .c__wrapper .title h3 {
+    font-size: 24px;
+  }
+}
