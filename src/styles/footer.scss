@@ -21,21 +21,28 @@
         height: 100%;
       }
     }
+    .copyright-text {
+      font-size: 18px;
+    }
   }
 }
 
 @media (max-width: 768px) {
   .footer .footer_wrapper .logo {
-    margin-right: 220px;
     width: 150px;
     height: 60px;
   }
 }
 
 @media (max-width: 430px) {
+  .footer_wrapper {
+    padding: 0 20px;
+  }
   .footer .footer_wrapper .logo {
-    margin-right: 20px;
     width: 100px;
     height: 40px;
+  }
+  .copyright-text {
+    font-size: 14px !important;
   }
 }

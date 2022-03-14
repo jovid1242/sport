@@ -7,7 +7,7 @@ export default function Championats() {
   return (
     <>
       <div className="championats">
-        <div className="sport_container">
+        <div className="">
           <div className="c__wrapper">
             <div className="title">
               <img src={leaguesIcon} alt="clockIcon" />

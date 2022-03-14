@@ -11,7 +11,7 @@ export default function Main() {
     <>
       <div className="t_main">
         <div className="main">
-          <div className="sport_containet">
+          <div className="sport_container">
             <div className="m__wrapper">
               <div className="box_l">
                 <div className="title">

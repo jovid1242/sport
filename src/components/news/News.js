@@ -19,10 +19,10 @@ export default function () {
             2022 года в спортивном комплексе «T-Mobile Arena» в городе
             Лас-Вегас, штат Невада, США
           </p>
-          <div class="live_ball">
-            <img class="pub_logo" src={ballIcon} alt="Liveball" />
-            <span class="publisher">LiveBall</span>
-            <span class="p_date">03.03.2022</span>
+          <div className="live_ball">
+            <img className="pub_logo" src={ballIcon} alt="Liveball" />
+            <span className="publisher">LiveBall</span>
+            <span className="p_date">03.03.2022</span>
           </div>
         </div>
       </div>
@@ -30,28 +30,28 @@ export default function () {
         <div className="card">
           <img src={cardNewsIcon} alt="cardNewsIcon" />
           <h4>Результаты жеребьевки Лиги Европы (1/8 финала)</h4>
-          <div class="live_ball">
-            <img class="pub_logo" src={ballIcon} alt="Liveball" />
-            <span class="publisher">LiveBall</span>
-            <span class="p_date">03.03.2022</span>
+          <div className="live_ball">
+            <img className="pub_logo" src={ballIcon} alt="Liveball" />
+            <span className="publisher">LiveBall</span>
+            <span className="p_date">03.03.2022</span>
           </div>
         </div>
         <div className="card">
           <img src={cardNewsIcon} alt="cardNewsIcon" />
           <h4>Результаты жеребьевки Лиги Европы (1/8 финала)</h4>
-          <div class="live_ball">
-            <img class="pub_logo" src={ballIcon} alt="Liveball" />
-            <span class="publisher">LiveBall</span>
-            <span class="p_date">03.03.2022</span>
+          <div className="live_ball">
+            <img className="pub_logo" src={ballIcon} alt="Liveball" />
+            <span className="publisher">LiveBall</span>
+            <span className="p_date">03.03.2022</span>
           </div>
         </div>
         <div className="card">
           <img src={cardNewsIcon} alt="cardNewsIcon" />
           <h4>Результаты жеребьевки Лиги Европы (1/8 финала)</h4>
-          <div class="live_ball">
-            <img class="pub_logo" src={ballIcon} alt="Liveball" />
-            <span class="publisher">LiveBall</span>
-            <span class="p_date">03.03.2022</span>
+          <div className="live_ball">
+            <img className="pub_logo" src={ballIcon} alt="Liveball" />
+            <span className="publisher">LiveBall</span>
+            <span className="p_date">03.03.2022</span>
           </div>
         </div>
       </div>
