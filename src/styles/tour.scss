@@ -36,10 +36,21 @@
 
     .info_vs {
       margin: 10px 0;
+      div {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+      }
       p {
         font-size: 48px;
         font-weight: 500;
         line-clamp: 50px;
+      }
+      span {
+        font-size: 14px;
+        font-weight: 300;
+        color: #b8b8b8;
       }
     }
   }

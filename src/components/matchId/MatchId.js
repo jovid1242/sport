@@ -11,6 +11,7 @@ import "../../styles/main.scss";
 import "../../styles/match.scss";
 
 export default function MatchId() {
+  const matchStart = false;
   return (
     <div>
       <div className="t_main">
@@ -20,10 +21,10 @@ export default function MatchId() {
               <div className="box_l">
                 <div className="title">
                   <img src={newsIcon} alt="newsIcon" />
-                  <h1>Российская Премьер Лига</h1>
+                  <h1>Лига чемпионов</h1>
                 </div>
-                <Tour />
-                <VideoPlayer />
+                <Tour matchStart={matchStart} />
+                <VideoPlayer matchStart={matchStart} />
               </div>
               <div className="box_r">
                 <div className="info_match">
@@ -37,7 +38,7 @@ export default function MatchId() {
                         <span>Дата матча</span>
                       </div>
                       <div className="info_r">
-                        <p>7 mart</p>
+                        <p>15 марта 2022. 23:00 МСК</p>
                       </div>
                     </div>
                     <div className="i__group">
@@ -46,7 +47,7 @@ export default function MatchId() {
                         <span>Тур</span>
                       </div>
                       <div className="info_r">
-                        <p>Regular Season - 20</p>
+                        <p>1/8 финала. 2-й матч</p>
                       </div>
                     </div>
                     <div className="i__group">
@@ -55,24 +56,25 @@ export default function MatchId() {
                         <span>Стадион</span>
                       </div>
                       <div className="info_r">
-                        <p>Stadion FK Krasnodar</p>
+                        <p>Олд Траффорд (Манчестер, Англия)</p>
                       </div>
                     </div>
                   </div>
                   <div className="info_game">
-                    <h3>КРАСНОДАР - УРАЛ:</h3>
+                    <h3>Манчестер Юнайтед - Атлетико:</h3>
                     <p>
-                      Готовы к Российская Премьер Лига? Если вам интересны
-                      команды Краснодар или Урал , вы должны отметить 7 марта в
-                      своем календаре. У кого больше шансов выиграть игру?
-                      Пришло время для Regular Season - 20 в Российская Премьер
-                      Лига. Поклонники и критики с нетерпением ждут игры.
-                      Противники будут противостоять друг другу на Stadion FK
-                      Krasnodar. Кто победит в итоге: Краснодар или Урал ?
-                      Смотрите матч на LiveBall, а также смотрите результаты,
-                      статистику и отчеты! Смотреть онлайн матч Краснодар - Урал
-                      в прямом эфире. Прямой эфир так же доступен для просмотра
-                      на мобильных гаджетах iPad, iPhone и Android устройствах.
+                      15 марта во втором матче 1/8 финала Лиги чемпионов сыграют
+                      «Манчестер Юнайтед» и «Атлетико». Встреча пройдет на
+                      стадионе «Олд Траффорд» и начнется в 23.00. Аналитики
+                      букмекерской компании БЕТСИТИ считают, что в этом матче
+                      победу одержит «Манчестер Юнайтед». На англичан можно
+                      поставить с котировкой 2.18 — это примерно 44%
+                      вероятности. Ничью предлагается взять за 3.30 (29%), а
+                      победа «Атлетико» есть в линии за 3.60 (27%). Ф1(-1.5)
+                      идет за 4.00, а Ф2(+1.5) — за 1.73. Тотал мячей больше 2.5
+                      доступен за 2.22, ТМ 2.5 можно взять за 1.71. Исход «обе
+                      забьют» предлагают взять за 1.98. Обратный результат есть
+                      за 1.83.
                     </p>
                   </div>
                 </div>

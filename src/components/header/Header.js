@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import logo from "../../assets/img/new_logo.png";
+import searchIcon from "../../assets/img/search.svg";
 
 import "../../styles/header.scss";
 
@@ -20,10 +21,7 @@ export default function Header() {
                 <div className="search__group">
                   <input type="text" placeholder="Найти команду" />
                   <button>
-                    <img
-                      src="https://h46.liveball.pro/public/img/search.svg"
-                      alt=""
-                    />
+                    <img src={searchIcon} alt="searchIcon" />
                   </button>
                 </div>
               </form>
