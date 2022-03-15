@@ -4,6 +4,10 @@ import ReactPlayer from "react-player";
 
 import g1Icon from "../../assets/img/621.png";
 import g2Icon from "../../assets/img/1084.png";
+
+import m1 from "../../assets/img/33.png";
+import m2 from "../../assets/img/34.png";
+
 import "../../styles/tour.scss";
 
 export default function Tour({ matchStart }) {
@@ -12,10 +16,7 @@ export default function Tour({ matchStart }) {
       <div className="tour__wrapper">
         <div className="l_item">
           <span>Манчестер Юнайтед</span>
-          <img
-            src={"https://liveball.uno/public/img/teams/33.png"}
-            alt="group"
-          />
+          <img src={m1} alt="group" />
         </div>
         <div className="info_vs">
           {matchStart === false ? (
@@ -29,10 +30,7 @@ export default function Tour({ matchStart }) {
         </div>
         <div className="r_item">
           <span>Атлетико</span>
-          <img
-            src={"https://liveball.uno/public/img/teams/530.png"}
-            alt="group"
-          />
+          <img src={m2} alt="group" />
         </div>
       </div>
     </div>

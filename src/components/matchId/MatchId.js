@@ -7,6 +7,7 @@ import clock from "../../assets/img/clock.png";
 import calendar from "../../assets/img/calendar.svg";
 import stadn from "../../assets/img/field.png";
 import tg from "../../assets/img/tg.svg";
+import ligaIcon from "../../assets/img/132.png";
 
 import "../../styles/main.scss";
 import "../../styles/match.scss";
@@ -43,10 +44,7 @@ export default function MatchId() {
               </div>
               <div className="box_l">
                 <div className="title">
-                  <img
-                    src={"https://liveball.uno/public/img/leagues/132.png"}
-                    alt="newsIcon"
-                  />
+                  <img src={ligaIcon} alt="ligaIcon" />
                   <h1>Лига чемпионов</h1>
                 </div>
                 <Tour matchStart={matchStart} />
