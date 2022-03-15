@@ -6886,6 +6886,11 @@ q@^1.1.2:
   resolved "https://registry.yarnpkg.com/q/-/q-1.5.1.tgz#7e32f75b41381291d04611f1bf14109ac00651d7"
   integrity sha1-fjL3W0E4EpHQRhHxvxQQmsAGUdc=
 
+qier-player@^2.0.2:
+  version "2.0.2"
+  resolved "https://registry.yarnpkg.com/qier-player/-/qier-player-2.0.2.tgz#092be14d34cbf715cfcf458a0464c856183d6dd4"
+  integrity sha512-U3oGln9WNW9WjZRng5NZ2dIb+ze9KTqSMmdeqmow36ZjID0MMjXZGfdoHTZGIBsVOsKD+Rn42G7fHcN7XJrXlg==
+
 qs@6.9.6:
   version "6.9.6"
   resolved "https://registry.yarnpkg.com/qs/-/qs-6.9.6.tgz#26ed3c8243a431b2924aca84cc90471f35d5a0ee"
