@@ -20,7 +20,7 @@ export default function VideoPlayer({ liveStart }) {
           />
         )}
       </div> */}
-      <div><br/>		<iframe allowfullscreen="true" scrolling="no" frameborder="0" width="100%" height="580" src="http://var16.ru//4.html"></iframe></div>
+      <div><br />		<iframe allowfullscreen="true" scrolling="no" frameborder="0" width="100%" height="580" src="http://var16.ru/livetv/live/4.html"></iframe></div>
     </div>
   );
 }
