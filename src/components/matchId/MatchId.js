@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import VideoPlayer from "./VideoPlayer";
 import Tour from "../tour/Tour";
 
@@ -6,11 +6,14 @@ import newsIcon from "../../assets/img/news.png";
 import clock from "../../assets/img/clock.png";
 import calendar from "../../assets/img/calendar.svg";
 import stadn from "../../assets/img/field.png";
+import tg from "../../assets/img/tg.svg";
 
 import "../../styles/main.scss";
 import "../../styles/match.scss";
 
 export default function MatchId() {
+  const [activeTab, setActiveTab] = useState(true);
+
   const matchStart = false;
   return (
     <div>
@@ -18,13 +21,36 @@ export default function MatchId() {
         <div className="main">
           <div className="sport_containet">
             <div className="m__wrapper">
+              <div className={activeTab === true ? "tg_block" : "dd_none"}>
+                <a href="https://t.me/socceron2022" target="_blank">
+                  <img src={tg} alt="tg-icon" />
+                  <div className="tg_info">
+                    <span>Не пропускай трансляции</span>
+                    <p>
+                      Ссылки на трансляции, новости футбола и многое другое в
+                      нашем Telegram канале
+                    </p>
+                  </div>
+                  <button
+                    className="tg_close"
+                    id="tg_close"
+                    type="submit"
+                    onClick={() => setActiveTab(false)}
+                  >
+                    x
+                  </button>
+                </a>
+              </div>
               <div className="box_l">
                 <div className="title">
-                  <img src={newsIcon} alt="newsIcon" />
+                  <img
+                    src={"https://liveball.uno/public/img/leagues/132.png"}
+                    alt="newsIcon"
+                  />
                   <h1>Лига чемпионов</h1>
                 </div>
                 <Tour matchStart={matchStart} />
-                <VideoPlayer matchStart={matchStart} />
+                <VideoPlayer liveStart={false} />
               </div>
               <div className="box_r">
                 <div className="info_match">

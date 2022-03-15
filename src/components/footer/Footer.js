@@ -1,6 +1,6 @@
 import React from "react";
 
-import logo from "../../assets/img/new_logo.png";
+import logo from "../../assets/img/logo.svg";
 import "../../styles/footer.scss";
 
 export default function Footer() {
@@ -15,7 +15,7 @@ export default function Footer() {
               </div>
               <div className="copyright-text">
                 <p>
-                  Copyright &copy; 2021. All Rights Reserved By <br /> LiveBall
+                  Copyright &copy; 2021. All Rights Reserved By <br /> SOCCER-ON
                   – Мы там, где футбол
                 </p>
               </div>

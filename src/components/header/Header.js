@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import logo from "../../assets/img/new_logo.png";
+import logo from "../../assets/img/logo.svg";
 import searchIcon from "../../assets/img/search.svg";
 
 import "../../styles/header.scss";
@@ -49,7 +49,7 @@ export default function Header() {
               </svg>
               <a href="#">Футбол</a>
             </li>
-            <li>
+            {/* <li>
               <svg
                 className="sport_img"
                 id="Layer_1"
@@ -65,7 +65,7 @@ export default function Header() {
                 </g>
               </svg>
               <a href="#">Футбол</a>
-            </li>
+            </li> */}
           </ul>
         </div>
       </div>

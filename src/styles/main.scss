@@ -1,7 +1,7 @@
 .t_main {
   width: 100%;
   min-height: 100vh;
-  background: rgb(8, 8, 8);
+  background: #242323;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -11,8 +11,65 @@
     background-color: #1b1b1b;
 
     .m__wrapper {
+      position: relative;
       display: flex;
       padding: 10px;
+
+      .dd_none {
+        display: none !important;
+      }
+
+      .tg_block {
+        position: fixed;
+        content: "";
+        z-index: 9999;
+        bottom: 30px;
+        right: 30px;
+        width: 370px;
+        background: #08c;
+        border-radius: 5px;
+        padding: 13px 17px 13px 13px;
+        box-shadow: 4px 4px 10px 0 rgb(20 78 107 / 57%);
+        cursor: pointer;
+        transition: all 0.5s ease-in-out;
+        a {
+          display: flex;
+          align-items: center;
+        }
+
+        .tg_close {
+          position: absolute;
+          content: "";
+          top: 0;
+          right: 5px;
+          outline: none;
+          border: none;
+          padding: 5px;
+          background: transparent;
+          color: #fff;
+          font-weight: bold;
+          cursor: pointer;
+        }
+
+        img {
+          width: 50px;
+          height: 50px;
+          min-width: 45px;
+          min-height: 45px;
+          margin-right: 15px;
+        }
+
+        span {
+          color: #fff;
+          font-size: 17px;
+          margin-bottom: 3px;
+        }
+
+        p {
+          font-size: 12px;
+          color: #fff;
+        }
+      }
 
       .box_l {
         width: 68%;
@@ -82,7 +139,7 @@
 
 @media (max-width: 430px) {
   .t_main .main {
-    width: 400px !important;
+    width: 100% !important;
   }
   .live_ball {
     margin-left: 20px;
@@ -91,5 +148,13 @@
   .other_news .card {
     width: 100%;
     height: 240px;
+  }
+  .t_main .main .m__wrapper .box_l .title img {
+    width: 30px;
+    height: 30px;
+    margin-left: 15px;
+  }
+  .tg_block {
+    width: 80% !important;
   }
 }

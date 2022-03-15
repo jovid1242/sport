@@ -5,11 +5,11 @@ import domatch from "../../assets/img/domatch.png";
 
 import "../../styles/player.scss";
 
-export default function VideoPlayer({ matchStart }) {
+export default function VideoPlayer({ liveStart }) {
   return (
     <div className="player_video">
       <div className="pl__wrapper">
-        {matchStart === false ? (
+        {liveStart === false ? (
           <div className="img_start_match">
             <img src={domatch} alt="" />
           </div>
